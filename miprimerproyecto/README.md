@@ -1,12 +1,70 @@
-Problemas:
-La instalación de React en Visual Studio Code fue la parte que más complicaciones me presentó. En la consola, al intentar crear un proyecto con el comando "npx create-react-app", me encontré con numerosos errores. Para superar este problema, me vi en la necesidad de reinstalar Node.js una vez más. Opté por la opción de reparar durante la instalación y, finalmente, obtuve las distintas carpetas sin ningún error.
-Otro inconveniente surgió al intentar iniciar un nuevo terminal con el comando "npm start". Para resolver este problema, fue necesario verificar el script correspondiente. En la consola, logré solucionarlo utilizando el comando "pwd".
+# Getting Started with Create React App
 
-Facilidad 
-"Me resultó ágil el diseño en CSS, la secuencia de pasos y la comprensión de la estructura del código. En algunas secciones, simplemente seguí la lógica, especialmente al trabajar con los botones, donde la única variación consistió en ajustar el valor a menos 1 para permitir el retorno a la página anterior. Además, cabe destacar que consumir la API fue igualmente sencillo para mí, facilitando aún más el desarrollo. Asimismo, la instalación de Bootstrap y la aplicación de su diseño resultaron tareas igualmente accesibles."
-Como lo hice 
-Primero, busqué información en Internet y vi algunos videos tutoriales. Aprendí a instalar Node.js y los comandos necesarios para crear un proyecto con las carpetas en el archivo app.js. Importé algunas librerías y creé una función que contiene un div con diferentes diseños. Además, desarrollé un componente llamado CharacterList para mostrar la lista de personajes. Posteriormente, creé una carpeta llamada "componentes" que contiene un archivo CharacterList. En este archivo, utilicé useEffect para llamar y fetch los datos de la API, dos instancias para los botones de regreso y siguiente para la paginación,  por último, el método map para iterar sobre la lista de personajes.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-En el segundo componente, Character.js, instalé Bootstrap utilizando el comando npm i bootstrap@5.2.0-beta1 en la terminal, el cual está disponible en la página web oficial. Luego, lo importé en el archivo index.js para aplicar clases de Bootstrap, centrar el texto, agregar relleno alrededor del contenido y mostrar el nombre y otros detalles de los personajes. Además, en el archivo CSS, añadí algunos diseños para los títulos y la información de los personajes.
+## Available Scripts
 
-En resumen, mi proceso comenzó con la búsqueda de información y tutoriales, seguido por la instalación de Node.js y la configuración del proyecto. Desarrollé los componentes necesarios, utilicé Bootstrap para mejorar el estilo y diseñé elementos específicos en el archivo CSS para los títulos y la información de los personajes.
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
